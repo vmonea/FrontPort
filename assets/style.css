@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #100A31;   
+    padding: 20px;
+   
+}
+
+.header h1 {
+    font-size: 88px;
+    margin: 0;
+   
+}
+
+.header h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.header label{
+    font-size: 30px;
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+#home h1{
+    font-size: 88px;
+    display: flex;
+    justify-content: center;
+    background-color:#340C6F;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+#home p{
+    margin: 20px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 54px;
+}
+
+#home img {
+    width: 1000px; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+#home a{
+    margin: 20px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #1B0F88;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+#contato h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+#contato img {
+    width: 30px; 
+    display: flex;
+    flex-direction: row;
+    margin: 20px; 
+    justify-content: space-around;
+    text-align: center;
+}
+
+#contato p{
+    display: flex;
+    justify-content: center;
+
+}
+
+#contato form {
+    background: #100A31; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#contato form label {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#contato form input[type="email"],
+#contato form input[type="text"],
+#contato form textarea {
+    width: 450px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #100A31; 
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #ffffff; 
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+#contato form textarea {
+    height: 50px;
+}
+
+#contato form button {
+    background: #100A31; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#contato form button:hover {
+    background: #56555a;  
+}
+
+#contato button {
+    color: #56555a;  
+}
+
+footer {
+    text-align: center; 
+    background-color: #333333;
+    color: #15144E;
+    padding: 20px;
+}
+
+footer p {
+    background-color: #333333c0;
+    margin: 0;
+}
