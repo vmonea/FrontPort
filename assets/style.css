@@ -171,6 +171,8 @@ section.redes-sociais img {
     margin: 20px; 
     justify-content: space-around;
     text-align: center;
+    background-color: #333333;
+    
 }
 
 
@@ -221,7 +223,7 @@ section.redes-sociais img {
     border-radius: 3px;
     box-sizing: border-box;
     background: #ffffff; 
-    color: white;
+    color: #000000;
     justify-content: center;
     display: block;
     box-shadow: 2px 0 20px #5B0D7A;
@@ -256,7 +258,7 @@ footer {
     text-align: center; 
     background-color: #333333;
     color: #15144E;
-    padding: 20px;
+    padding: 5px;
 }
 
 footer p {
